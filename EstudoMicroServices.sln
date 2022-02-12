@@ -3,7 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31919.166
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EstudoMicroServices", "EstudoMicroServices\EstudoMicroServices.csproj", "{07592B47-53CB-40E1-9026-5648BAEBCC2D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EstudoMicroServices", "EstudoMicroServices\EstudoMicroServices.csproj", "{07592B47-53CB-40E1-9026-5648BAEBCC2D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FrontEnd", "FrontEnd", "{B7D72A9D-9890-44A8-B935-40E4733D3D3E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{06966F1B-21F6-4FEA-8EDC-4E6A17A11A3E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeekShopping.Web", "GeekShopping.Web\GeekShopping.Web.csproj", "{5A4A0B4D-29DC-4896-A322-9E6D78339D2A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeekShopping.ProductAPI", "GeekShopping.ProductAPI\GeekShopping.ProductAPI.csproj", "{4B9DCBF9-C687-4A93-97FE-1B2532D6AB3B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,9 +23,21 @@ Global
 		{07592B47-53CB-40E1-9026-5648BAEBCC2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{07592B47-53CB-40E1-9026-5648BAEBCC2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{07592B47-53CB-40E1-9026-5648BAEBCC2D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A4A0B4D-29DC-4896-A322-9E6D78339D2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A4A0B4D-29DC-4896-A322-9E6D78339D2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A4A0B4D-29DC-4896-A322-9E6D78339D2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A4A0B4D-29DC-4896-A322-9E6D78339D2A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B9DCBF9-C687-4A93-97FE-1B2532D6AB3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B9DCBF9-C687-4A93-97FE-1B2532D6AB3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B9DCBF9-C687-4A93-97FE-1B2532D6AB3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B9DCBF9-C687-4A93-97FE-1B2532D6AB3B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5A4A0B4D-29DC-4896-A322-9E6D78339D2A} = {B7D72A9D-9890-44A8-B935-40E4733D3D3E}
+		{4B9DCBF9-C687-4A93-97FE-1B2532D6AB3B} = {06966F1B-21F6-4FEA-8EDC-4E6A17A11A3E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {2A0EE7C6-FB3F-4D91-A13D-B0A15348E6EE}
