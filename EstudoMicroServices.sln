@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31919.166
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EstudoMicroServices", "EstudoMicroServices\EstudoMicroServices.csproj", "{07592B47-53CB-40E1-9026-5648BAEBCC2D}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FrontEnd", "FrontEnd", "{B7D72A9D-9890-44A8-B935-40E4733D3D3E}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{06966F1B-21F6-4FEA-8EDC-4E6A17A11A3E}"
@@ -13,7 +11,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GeekShopping.Web", "GeekSho
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GeekShopping.ProductAPI", "GeekShopping.ProductAPI\GeekShopping.ProductAPI.csproj", "{4B9DCBF9-C687-4A93-97FE-1B2532D6AB3B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeekShopping.IdentityServer", "GeekShopping.IdentityServer\GeekShopping.IdentityServer.csproj", "{7E97FBB3-AE8E-490D-BA70-6484D414F095}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GeekShopping.IdentityServer", "GeekShopping.IdentityServer\GeekShopping.IdentityServer.csproj", "{7E97FBB3-AE8E-490D-BA70-6484D414F095}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,10 +19,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{07592B47-53CB-40E1-9026-5648BAEBCC2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{07592B47-53CB-40E1-9026-5648BAEBCC2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{07592B47-53CB-40E1-9026-5648BAEBCC2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{07592B47-53CB-40E1-9026-5648BAEBCC2D}.Release|Any CPU.Build.0 = Release|Any CPU
 		{5A4A0B4D-29DC-4896-A322-9E6D78339D2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{5A4A0B4D-29DC-4896-A322-9E6D78339D2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5A4A0B4D-29DC-4896-A322-9E6D78339D2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
