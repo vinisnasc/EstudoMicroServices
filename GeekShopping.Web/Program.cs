@@ -8,6 +8,9 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddHttpClient<IProductService, ProductService>(c =>
 c.BaseAddress = new Uri(builder.Configuration["ServiceUrls:ProductApi"]));
 
+builder.Services.AddHttpClient<ICartService, CartService>(c =>
+c.BaseAddress = new Uri(builder.Configuration["ServiceUrls:CartApi"]));
+
 builder.Services.AddControllersWithViews();
 
 // Config Identity Server
@@ -27,7 +30,7 @@ var result = builder.Services.AddAuthentication(options =>
       options.ClaimActions.MapJsonKey("sub", "sub", "sub");
       options.TokenValidationParameters.NameClaimType = "name";
       options.TokenValidationParameters.RoleClaimType = "role";
-      options.Scope.Add("geek_shopping");
+      options.Scope.Add("GeekShopping");
       options.SaveTokens = true;
   });
 

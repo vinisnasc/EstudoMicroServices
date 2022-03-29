@@ -1,6 +1,10 @@
-﻿namespace GeekShopping.Web.Models
+﻿using GeekShopping.CartAPI.Model.Base;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
+
+namespace GeekShopping.CartAPI.Data.ValueObjects
 {
-    public class ProductModel
+    public class ProductVO
     {
         public long Id { get; set; }
         public string Name { get; set; }
