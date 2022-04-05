@@ -9,7 +9,7 @@ namespace GeekShopping.Web.Services.IServices
         Task<CartViewModel> UpdateCart(CartViewModel model, string token);
         Task<bool> RemoveFromCart(long cartId, string token);
 
-        Task<bool> ApplyCoupon(CartViewModel model, string couponcode, string token);
+        Task<bool> ApplyCoupon(CartViewModel model, string token);
         Task<bool> RemoveCoupon(string userId, string token);
         Task<bool> ClearCart(string userId, string token);
 
